@@ -1,5 +1,7 @@
 # Vectorial Data Terminal — MCP server for AI agents
 
+[![mcptry](https://mcptry.com/badge/com.vectorialdata/terminal)](https://mcptry.com/servers/com.vectorialdata/terminal)
+
 Let Claude, ChatGPT, Cursor or your own bot trade **Hyperliquid perps** and **Polymarket prediction markets**, and
 **earn yield** (HYPE staking, HLP, USDC lending), from wallets **your agent owns**, inside limits our server enforces,
 with a kill switch.
