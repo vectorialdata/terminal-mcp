@@ -1,0 +1,18 @@
+{
+  "name": "vectorialdata-terminal-mcp-examples",
+  "private": true,
+  "type": "module",
+  "description": "Examples for the Vectorial Data Terminal Agent API and MCP server",
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "viem": "2.38.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.0",
+    "tsx": "4.20.5",
+    "typescript": "5.9.2"
+  }
+}
