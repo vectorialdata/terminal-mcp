@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vectorial-data-terminal": {
+      "type": "http",
+      "url": "https://terminal.vectorialdata.com/api/mcp"
+    }
+  }
+}

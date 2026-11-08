@@ -17,6 +17,15 @@ don't run anything to use it.
 
 ## Connect
 
+**Claude (app, web, phone) or ChatGPT, with sign-in:** add a custom connector with the URL
+`https://terminal.vectorialdata.com/api/mcp` and sign in with your Vectorial Data Terminal account (OAuth). It starts in
+paper mode; with the `live` permission the app can only *propose* real orders, and you approve each one in the Terminal.
+
+**Cursor:** install it from the plugin in this repository (`.cursor-plugin/` + `.mcp.json`), or add the URL above as a
+remote MCP server. Market data works right away; you sign in when a tool needs your account.
+
+**Autonomous agents, with an API key:**
+
 ```bash
 claude mcp add --transport http vectorialdata https://terminal.vectorialdata.com/api/mcp \
   --header "Authorization: Bearer vd_agt_…"
